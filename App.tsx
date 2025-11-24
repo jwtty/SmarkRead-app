@@ -296,7 +296,7 @@ const App: React.FC = () => {
             type="text" 
             value={urlInput}
             onChange={(e) => setUrlInput(e.target.value)}
-            className="flex-1 px-4 py-2 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            className="flex-1 px-4 py-2 rounded-lg bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-300"
             placeholder="Enter article URL (e.g., https://...)"
           />
           <button 
