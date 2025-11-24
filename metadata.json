@@ -1,0 +1,8 @@
+{
+  "name": "SmartRead AI",
+  "description": "An intelligent web article reader that summarizes content, links key insights to specific paragraphs, and provides a context-aware bilingual dictionary.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
